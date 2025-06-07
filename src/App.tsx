@@ -508,7 +508,7 @@ function App() {
             <div className="gallery-item">
               <div className="gallery-image">
                 <img
-                  src="https://images.unsplash.com/photo-1614732414444-096040ec8c2c?w=400&h=300&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=300&fit=crop&crop=center"
                   alt="Large Scale Structure"
                 />
               </div>
