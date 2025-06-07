@@ -109,6 +109,50 @@ const starPatternSvg =
 function App() {
   return (
     <div className="app">
+      {/* Navigation Bar */}
+      <nav className="navbar">
+        <div className="nav-container">
+          <div className="nav-logo">
+            <span className="nav-logo-text">NASA</span>
+          </div>
+
+          <ul className="nav-menu">
+            <li className="nav-item">
+              <a href="#home" className="nav-link">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#missions" className="nav-link">
+                Missions
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#discoveries" className="nav-link">
+                Discoveries
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#gallery" className="nav-link">
+                Gallery
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#about" className="nav-link">
+                About
+              </a>
+            </li>
+          </ul>
+
+          <div className="nav-toggle">
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      {/* Title Page */}
       <div className="title-page">
         <div className="title-container">
           <div className="nasa-logo">
