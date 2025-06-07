@@ -226,6 +226,22 @@ body {
 
 .nasa-logo {
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nasa-logo-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 30px rgba(102, 126, 234, 0.3));
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+.nasa-logo-img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 15px 40px rgba(102, 126, 234, 0.5));
 }
 
 .logo-circle {

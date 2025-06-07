@@ -113,7 +113,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="nav-logo-text">NASA</span>
+            <span className="nav-logo-text">PHYSICS 20B</span>
           </div>
 
           <ul className="nav-menu">
@@ -156,9 +156,11 @@ function App() {
       <section id="home" className="title-page">
         <div className="title-container">
           <div className="nasa-logo">
-            <div className="logo-circle">
-              <span className="logo-text">NASA</span>
-            </div>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg"
+              alt="NASA Logo"
+              className="nasa-logo-img"
+            />
           </div>
 
           <h1 className="main-title">
@@ -233,7 +235,7 @@ function App() {
             <div className="mission-card">
               <div className="mission-image">
                 <img
-                  src="https://images.unsplash.com/photo-1614732414444-096040ec8c2c?w=600&h=300&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=600&h=300&fit=crop&crop=center"
                   alt="Planck Space Observatory"
                 />
               </div>
