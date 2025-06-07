@@ -187,6 +187,12 @@ function App() {
 
           <div className="missions-grid">
             <div className="mission-card">
+              <div className="mission-image">
+                <img
+                  src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=600&h=300&fit=crop&crop=center"
+                  alt="James Webb Space Telescope"
+                />
+              </div>
               <div className="mission-header">
                 <h3>James Webb Space Telescope (JWST)</h3>
                 <span className="mission-date">
@@ -225,6 +231,12 @@ function App() {
             </div>
 
             <div className="mission-card">
+              <div className="mission-image">
+                <img
+                  src="https://images.unsplash.com/photo-1614732414444-096040ec8c2c?w=600&h=300&fit=crop&crop=center"
+                  alt="Planck Space Observatory"
+                />
+              </div>
               <div className="mission-header">
                 <h3>Planck Space Observatory</h3>
                 <span className="mission-date">Mission: 2009-2013</span>
@@ -255,6 +267,12 @@ function App() {
             </div>
 
             <div className="mission-card">
+              <div className="mission-image">
+                <img
+                  src="https://images.unsplash.com/photo-1564053489984-317bbd824340?w=600&h=300&fit=crop&crop=center"
+                  alt="WMAP Satellite"
+                />
+              </div>
               <div className="mission-header">
                 <h3>Wilkinson Microwave Anisotropy Probe (WMAP)</h3>
                 <span className="mission-date">Mission: 2001-2010</span>
@@ -281,6 +299,12 @@ function App() {
             </div>
 
             <div className="mission-card">
+              <div className="mission-image">
+                <img
+                  src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=600&h=300&fit=crop&crop=center"
+                  alt="Spitzer Space Telescope"
+                />
+              </div>
               <div className="mission-header">
                 <h3>Spitzer Space Telescope</h3>
                 <span className="mission-date">Mission: 2003-2020</span>
@@ -318,6 +342,18 @@ function App() {
             <h3 className="discovery-title">
               Cosmic Microwave Background Radiation (CMB)
             </h3>
+            <div className="cmb-hero-image">
+              <img
+                src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=1200&h=600&fit=crop&crop=center"
+                alt="Cosmic Microwave Background visualization"
+              />
+              <div className="image-overlay">
+                <p>
+                  Artist's visualization of the cosmic microwave background
+                  showing temperature fluctuations
+                </p>
+              </div>
+            </div>
             <p className="discovery-intro">
               The cosmic microwave background is the afterglow of the Big Bang,
               discovered in 1965 and studied in unprecedented detail by recent
@@ -364,6 +400,12 @@ function App() {
             <h3 className="discovery-title">Early Universe Revelations</h3>
             <div className="revelation-grid">
               <div className="revelation-card">
+                <div className="revelation-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=250&fit=crop&crop=center"
+                    alt="Early galaxies"
+                  />
+                </div>
                 <h4>First Galaxies</h4>
                 <p>
                   JWST has observed galaxies that formed when the Universe was
@@ -374,6 +416,12 @@ function App() {
               </div>
 
               <div className="revelation-card">
+                <div className="revelation-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop&crop=center"
+                    alt="Cosmic reionization"
+                  />
+                </div>
                 <h4>Reionization Era</h4>
                 <p>
                   The period when the first stars and galaxies formed and began
@@ -384,6 +432,12 @@ function App() {
               </div>
 
               <div className="revelation-card">
+                <div className="revelation-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1614729939124-032f76c20c99?w=400&h=250&fit=crop&crop=center"
+                    alt="Dark matter simulation"
+                  />
+                </div>
                 <h4>Dark Matter Distribution</h4>
                 <p>
                   CMB observations combined with gravitational lensing studies
@@ -408,8 +462,11 @@ function App() {
 
           <div className="gallery-grid">
             <div className="gallery-item">
-              <div className="image-placeholder cmb-map">
-                <span>Planck CMB Map</span>
+              <div className="gallery-image">
+                <img
+                  src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=400&h=300&fit=crop&crop=center"
+                  alt="Cosmic Microwave Background Map"
+                />
               </div>
               <h4>Cosmic Microwave Background</h4>
               <p>
@@ -419,8 +476,11 @@ function App() {
             </div>
 
             <div className="gallery-item">
-              <div className="image-placeholder jwst-deep">
-                <span>JWST Deep Field</span>
+              <div className="gallery-image">
+                <img
+                  src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400&h=300&fit=crop&crop=center"
+                  alt="JWST Deep Field"
+                />
               </div>
               <h4>JWST Deep Field</h4>
               <p>
@@ -430,8 +490,11 @@ function App() {
             </div>
 
             <div className="gallery-item">
-              <div className="image-placeholder timeline">
-                <span>Cosmic Timeline</span>
+              <div className="gallery-image">
+                <img
+                  src="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=400&h=300&fit=crop&crop=center"
+                  alt="Universe Timeline"
+                />
               </div>
               <h4>Universe Timeline</h4>
               <p>
@@ -441,13 +504,44 @@ function App() {
             </div>
 
             <div className="gallery-item">
-              <div className="image-placeholder structure">
-                <span>Large Scale Structure</span>
+              <div className="gallery-image">
+                <img
+                  src="https://images.unsplash.com/photo-1614732414444-096040ec8c2c?w=400&h=300&fit=crop&crop=center"
+                  alt="Large Scale Structure"
+                />
               </div>
               <h4>Cosmic Web</h4>
               <p>
                 The filamentary structure of dark matter that forms the backbone
                 of the Universe
+              </p>
+            </div>
+
+            <div className="gallery-item">
+              <div className="gallery-image">
+                <img
+                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center"
+                  alt="Nebula Formation"
+                />
+              </div>
+              <h4>Star Formation Regions</h4>
+              <p>
+                Stunning nebulae where new stars are born, captured by space
+                telescopes
+              </p>
+            </div>
+
+            <div className="gallery-item">
+              <div className="gallery-image">
+                <img
+                  src="https://images.unsplash.com/photo-1564053489984-317bbd824340?w=400&h=300&fit=crop&crop=center"
+                  alt="Galaxy Cluster"
+                />
+              </div>
+              <h4>Galaxy Clusters</h4>
+              <p>
+                Massive collections of galaxies bound together by gravity and
+                dark matter
               </p>
             </div>
           </div>
@@ -465,6 +559,12 @@ function App() {
 
           <div className="future-missions">
             <div className="future-card">
+              <div className="future-image">
+                <img
+                  src="https://images.unsplash.com/photo-1517976487492-5750f3195933?w=500&h=250&fit=crop&crop=center"
+                  alt="Roman Space Telescope concept"
+                />
+              </div>
               <h3>Nancy Grace Roman Space Telescope</h3>
               <span className="launch-date">Launch: Mid-2020s</span>
               <p>
@@ -484,6 +584,12 @@ function App() {
             </div>
 
             <div className="future-card">
+              <div className="future-image">
+                <img
+                  src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=500&h=250&fit=crop&crop=center"
+                  alt="CMB-S4 observatory concept"
+                />
+              </div>
               <h3>Cosmic Microwave Background Stage-4 (CMB-S4)</h3>
               <span className="launch-date">Deployment: Late 2020s</span>
               <p>
@@ -503,6 +609,12 @@ function App() {
             </div>
 
             <div className="future-card">
+              <div className="future-image">
+                <img
+                  src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=500&h=250&fit=crop&crop=center"
+                  alt="LISA concept"
+                />
+              </div>
               <h3>Laser Interferometer Space Antenna (LISA)</h3>
               <span className="launch-date">Launch: 2030s</span>
               <p>
@@ -523,6 +635,12 @@ function App() {
           </div>
 
           <div className="future-vision">
+            <div className="vision-image">
+              <img
+                src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop&crop=center"
+                alt="Future space exploration"
+              />
+            </div>
             <h3>The Next Frontier</h3>
             <p>
               Future missions will combine electromagnetic observations with
